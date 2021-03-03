@@ -23,10 +23,6 @@ def search_word():
         print("Такого слова в файле нет!")
     else:
         print("Слово", search_word, "было найдено", counter, "раз")
-    # f = open("New employee list", mode="w")
-    # for i in range(len(new_list)):
-    #     f.write(str(new_list[i])+"\n")
-    # f.close()
 
 
 def replace_word():
